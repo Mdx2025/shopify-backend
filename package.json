@@ -1,0 +1,16 @@
+{
+  "name": "shopify-backend",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "test": "echo 'Tests not implemented yet'"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.21.0",
+    "@shopify/storefront-api-client": "^1.0.0"
+  }
+}
